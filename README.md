@@ -27,5 +27,8 @@ As most of the approaches uses Associative rules mining and Apriori based method
 <p align="left">
   <img src="neighbours.png" width="500" height="350">
 </p>
-  
+The main disadvantage of the KNN algorithm is that it is a lazy learner that is it does not learn anything from the training data and simply uses the training data itself for classiﬁcation,  the algorithm must compute the distance and sort all the training data at each prediction, which can be slow if there are a large number of training examples as in the case of instacart dataset . Another disadvantage of this approach is that the algorithm does not learn anything from the training data, which can result in the algorithm not generalizing well and also not being robust to noisy data. 
+The code that implements using k-nn algorithm is present in the k-nn.ipynb
+
+
 </ul>
