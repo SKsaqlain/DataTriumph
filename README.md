@@ -47,5 +47,7 @@ The above three models were tested on the Bakery Dataset only, as due to the lac
 
 <li type='A'><b>Predicting whether the item will be re-ordered or not :-</b></li>
  In order to predict whether the an item will be re-ordered or not the instacart dataset was used which had an additional information whether the product was re-ordered or not.<br/>
-<img src="https://user-images.githubusercontent.com/31769827/48949290-79d80f80-ef5d-11e8-94f5-8cedd293d31f.PNG" width="400" height="300">
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/31769827/48949290-79d80f80-ef5d-11e8-94f5-8cedd293d31f.PNG" width="500" height="400">
+ </p>
 </ul>
