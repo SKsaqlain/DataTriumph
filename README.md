@@ -24,8 +24,8 @@ As most of the approaches uses Associative rules mining and Apriori based method
  
 <li type='A'><b>Recommending next items using supervised learning approach :-</b></li>
  <ul><li> k-nn:</li></ul>K nearest neighbors is a simple algorithm that stores all available cases and classiﬁes new cases based on a similarity measure (e.g., distance functions). A k-nn model was trained with the above mentioned processed data to predict the next item in the transaction, the model was ﬁt with the processed data distance measure being RMSE. The model was trained multiple times with varying neighbors and on testing against the testing data as shown in the Figure as it can be seen that an optimal number of neighbours being 14 with an accuracy of 27.2% and then the accuracy just drops and becomes saturated. 
-<p align="center">
-  <img src="neighbours.png" width="350">
+<p align="left">
+  <img src="neighbours.png" width="350" height="350">
 </p>
   
 </ul>
