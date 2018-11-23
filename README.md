@@ -50,4 +50,8 @@ The above three models were tested on the Bakery Dataset only, as due to the lac
  <p align="center">
 <img src="https://user-images.githubusercontent.com/31769827/48949290-79d80f80-ef5d-11e8-94f5-8cedd293d31f.PNG" width="500" height="400">
  </p>
+ <br/>
+ The instacart dataset was spread across multiple ﬁles but only products,aisle,department datasets were used and merged to get the information about which department and aisle the product belongs to. Once the dataset was merged the product name,department name,aisle name were drop only the id’s were kept. The resulting dataset was split into training data and testing data, the size of the training data was 969231 and the size of the testing data was 415386. A Logistic regression model was trained to predict whether the current product will be re-ordered or not On testing on the testing dataset an accuracy of 60% was obtained and the f1-score on the original dataset was around 75%. The above proposed problem statement was also model using a neural network with a single layer consisting of 10 neurons and the accuracy that was obtained was around 62% and with further increase in the levels or neurons per level results in the same accuracy. Thus the above proposed model could be used to predict whether the given product will be re-ordered or not and basked on the information reﬁle of the stocks/items can be performed
+ The corresponding code is present in REGRESSION MODEL TO PREDICT WHETHER THE ITEM WILL BE RE-ORDERED OR NOT.ipynb
+ <br/>
 </ul>
