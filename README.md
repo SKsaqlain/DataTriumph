@@ -1,6 +1,6 @@
 # DataTriumph
 
-Team Members: 
+<b>Team Members:</b> 
 <ul>
 <li><b>SK SAQLAIN MUSTAQ.</b></li>
 <li><b>SUMAIR AHMED SHARIFF.</b></li>
@@ -13,3 +13,4 @@ Market basket analysis is based upon the identiﬁcation and analysis of purchas
 
 <ul><li>PROPOSED APPROACH:-</li></ul>
 As most of the approaches uses Associative rules mining and Apriori based methods thus majority of the time is consumed in generating the rules. 
+<ul><li type='A'>Data processing</li><ul>
