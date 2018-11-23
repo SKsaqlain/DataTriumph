@@ -16,6 +16,16 @@ Market basket analysis is based upon the identiﬁcation and analysis of purchas
 <ul><li type=1>python3</li><li type=1>MINIMUM 18gb OF RAM</li></ul>
 <br/>
 <br/>
+
+<ul>EXECUTE THE FILES IN THE FOLLOWING ORDER:-
+  <li type=1>data processing.ipynb</li>
+  <li type=1>k-nn.ipynb</li>
+ <li type=1>model2.ipynb</li>
+ <li type=1>REGRESSION MODEL TO PREDICT WHETHER THE ITEM WILL BE RE-ORDERED OR NOT.ipynb</li>
+ <li type=1>** RECOMMENDATION_MODEL.ipynb</li>
+ **<p style="text-size:2px">in-order to replicate the above code a minimum of 18gb ram is required</p>
+</ul>
+
 <ul><li>PROPOSED APPROACH:-</li></ul>
 As most of the approaches uses Associative rules mining and Apriori based methods thus majority of the time is consumed in generating the rules.
 
@@ -73,5 +83,4 @@ by more users more often. Thus the ﬁnal products that are obtained are the hig
 
 <br/>
 <br/>
- The supervised learning algorithm performed well especially the MLP model but with further improvement with the hardware resources the models accuracy could be increased and training the model on a distributed system would in-turn help to reduce the amount of time taken to train the model. But the major problem that was faced when working on the project was to validate the model that uses collaborative ﬁltering and the lack of proper hardware resources. Even though that the model could not validated inferences could be made from the models prediction that it worked pretty well, as it recommended the products that the other users bought who were similar to the current users for which recommendation is being made. Thus working on the project not only helped to widen our skill and domain knowledge but also gave us a hands on experience on how recommendation systems works and implemented to cater the needs of the consumer and also how it improves the business.
-
+ The supervised learning algorithm performed well especially the MLP model but with further improvement with the hardware resources the models accuracy could be increased and training the model on a distributed system would in-turn help to reduce the amount of time taken to train the model. But the major problem that was faced when working on the project was to validate the model that uses collaborative ﬁltering and the lack of proper hardware resources. Even though that the model could not validated inferences could be made from the models prediction that it worked pretty well, as it recommended the products that the other users bought who were similar to the current users for which recommendation is being made.
