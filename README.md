@@ -37,6 +37,8 @@ The corresponding code is available in model2.ipynb
 <br/>
 <ul><li> Multi-Layer Perceptron:</li></ul>A Neural Network model was trained with with 3 layers,layer-1 consisting of 50 neurons layer-2 consisting of 20 neurons and layer-3 consisting of 10 neurons activation function being relu and alpha learning rate being 0.001 with max iteration being 500 and optimizer being adam-optimiser. When the model was tested with the testing dataset an accuracy of 29% was obtained when the models parameter was further changed the models accuracy did not change but remained saturated.
 The corresponding code is available in model2.ipynb
+<br/>
+<p>The below table summariezes the accuracy of the above three model.</p>
 
-
+<img src="https://user-images.githubusercontent.com/31769827/48947929-de44a000-ef58-11e8-8ef7-bf8311db5585.PNG" width="500" height="350">
 </ul>
