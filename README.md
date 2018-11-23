@@ -19,9 +19,10 @@ Market basket analysis is based upon the identiﬁcation and analysis of purchas
 <ul><li>PROPOSED APPROACH:-</li></ul>
 As most of the approaches uses Associative rules mining and Apriori based methods thus majority of the time is consumed in generating the rules.
 
-<ul><li type='A'><b>Data processing:-</b></li><ul> 
+<ul><li type='A'><b>Data processing:-</b></li> 
 The transactions that were present in the dataset were in a single column and not in a basket format thus the dataset was processed to get all the items that is ordered by a single user/transaction, and in-order to model the problem with a supervised learning algorithms, each transaction was further processed, thus the code to processed the data is present data-processing.ipynb. 
  
-<ul><li type='A'><b>Recommending next items using supervised learning approach :-</b></li><ul>
+<ul><li type='A'><b>Recommending next items using supervised learning approach :-</b></li></ul>
  <ul><li> k-nn:</li></ul>K nearest neighbors is a simple algorithm that stores all available cases and classiﬁes new cases based on a similarity measure (e.g., distance functions). A k-nn model was trained with the above mentioned processed data to predict the next item in the transaction, the model was ﬁt with the processed data distance measure being RMSE .
   
+</ul>
