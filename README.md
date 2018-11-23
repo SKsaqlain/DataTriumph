@@ -1,4 +1,4 @@
-# DataTriumph
+# DataTriumph.<br/>Market Basket Analysis Using Machine Learning.
 
 <b>Team Members:</b> 
 <ul>
@@ -32,6 +32,10 @@ The code that implements using k-nn algorithm is present in the k-nn.ipynb
 
 <ul><li> SVM:</li></ul> SVM is a supervised machine learning algorithm which can be used for classiﬁcation or regression problems. It uses a technique called the kernel trick to transform the data and then based on these transformations it ﬁnds an optimal boundary between the possible outputs. .SVM is capable of ﬁnding non-linear boundaries among the data-points. The beneﬁt is that it can capture much more complex relationships between data-points without having to perform difﬁcult transformations on the data. A SVM model was also trained with the above mentioned processed data to predict the next item that is likely to be picked up, the model was trained on the training data with default parameters of SVM on testing it against the testing data the model predicted with an accuracy of 23.7%. 
 The downside of the above mentioned model is that the training time is much longer as it’s much more computationally intensive.
+The corresponding code is available in model2.ipynb
+<br/>
+<br/>
+<ul><li> Multi-Layer Perceptron:</li></ul>A Neural Network model was trained with with 3 layers,layer-1 consisting of 50 neurons layer-2 consisting of 20 neurons and layer-3 consisting of 10 neurons activation function being relu and alpha learning rate being 0.001 with max iteration being 500 and optimizer being adam-optimiser. When the model was tested with the testing dataset an accuracy of 29% was obtained when the models parameter was further changed the models accuracy did not change but remained saturated.
 The corresponding code is available in model2.ipynb
 
 
