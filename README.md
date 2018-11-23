@@ -30,5 +30,9 @@ As most of the approaches uses Associative rules mining and Apriori based method
 The main disadvantage of the KNN algorithm is that it is a lazy learner that is it does not learn anything from the training data and simply uses the training data itself for classiﬁcation,  the algorithm must compute the distance and sort all the training data at each prediction, which can be slow if there are a large number of training examples as in the case of instacart dataset . Another disadvantage of this approach is that the algorithm does not learn anything from the training data, which can result in the algorithm not generalizing well and also not being robust to noisy data. 
 The code that implements using k-nn algorithm is present in the k-nn.ipynb
 
+<ul><li> SVM:</li></ul> SVM is a supervised machine learning algorithm which can be used for classiﬁcation or regression problems. It uses a technique called the kernel trick to transform the data and then based on these transformations it ﬁnds an optimal boundary between the possible outputs. .SVM is capable of ﬁnding non-linear boundaries among the data-points. The beneﬁt is that it can capture much more complex relationships between data-points without having to perform difﬁcult transformations on the data. A SVM model was also trained with the above mentioned processed data to predict the next item that is likely to be picked up, the model was trained on the training data with default parameters of SVM on testing it against the testing data the model predicted with an accuracy of 23.7%. 
+The downside of the above mentioned model is that the training time is much longer as it’s much more computationally intensive.
+The corresponding code is available in model2.ipynb
+
 
 </ul>
