@@ -40,5 +40,5 @@ The corresponding code is available in model2.ipynb
 <br/>
 <p>The below table summariezes the accuracy of the above three model.</p>
 
-<img src="https://user-images.githubusercontent.com/31769827/48947929-de44a000-ef58-11e8-8ef7-bf8311db5585.PNG" width="500" height="350">
+<img src="https://user-images.githubusercontent.com/31769827/48947929-de44a000-ef58-11e8-8ef7-bf8311db5585.PNG" width="200" height="200">
 </ul>
