@@ -23,7 +23,7 @@ Market basket analysis is based upon the identiﬁcation and analysis of purchas
  <li type=1>model2.ipynb</li>
  <li type=1>REGRESSION MODEL TO PREDICT WHETHER THE ITEM WILL BE RE-ORDERED OR NOT.ipynb</li>
  <li type=1>** RECOMMENDATION_MODEL.ipynb</li>
- **<p style="text-size:2px">in-order to replicate the above code a minimum of 18gb ram is required</p>
+ **<p style="size:2px">in-order to replicate the above code a minimum of 18gb ram is required</p>
 </ul>
 
 <ul><li>PROPOSED APPROACH:-</li></ul>
