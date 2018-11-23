@@ -45,6 +45,7 @@ The corresponding code is available in model2.ipynb
 The above three models were tested on the Bakery Dataset only, as due to the lack of hardware resources the model could not be applied to the instacart dataset which required enormous amount of memory and time to process the transaction and train the model. The neural network performed better as it is capable of learning complex patterns among the data-points compare to the other methods, but its accuracy can further be improved with further preprocessing of the data-set as mention in the above mentioned Data processing section and proper hardware resources.
 
 
-<ul><li type='A'><b>Predicting whether the item will be re-ordered or not :-</b></li>
+<li type='A'><b>Predicting whether the item will be re-ordered or not :-</b></li>
  In order to predict whether the an item will be re-ordered or not the instacart dataset was used which had an additional information whether the product was re-ordered or not.
+<img src="https://user-images.githubusercontent.com/31769827/48949290-79d80f80-ef5d-11e8-94f5-8cedd293d31f.PNG" width="250" height="110">
 </ul>
