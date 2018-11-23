@@ -24,7 +24,7 @@ As most of the approaches uses Associative rules mining and Apriori based method
  
 <li type='A'><b>Recommending next items using supervised learning approach :-</b></li>
  <ul><li> k-nn:</li></ul>K nearest neighbors is a simple algorithm that stores all available cases and classiﬁes new cases based on a similarity measure (e.g., distance functions). A k-nn model was trained with the above mentioned processed data to predict the next item in the transaction, the model was ﬁt with the processed data distance measure being RMSE. The model was trained multiple times with varying neighbors and on testing against the testing data as shown in the Figure as it can be seen that an optimal number of neighbours being 14 with an accuracy of 27.2% and then the accuracy just drops and becomes saturated. 
-<p align="left">
+<p align="center">
   <img src="neighbours.png" width="500" height="350">
 </p>
 The main disadvantage of the KNN algorithm is that it is a lazy learner that is it does not learn anything from the training data and simply uses the training data itself for classiﬁcation,  the algorithm must compute the distance and sort all the training data at each prediction, which can be slow if there are a large number of training examples as in the case of instacart dataset . Another disadvantage of this approach is that the algorithm does not learn anything from the training data, which can result in the algorithm not generalizing well and also not being robust to noisy data. 
@@ -39,8 +39,9 @@ The corresponding code is available in model2.ipynb
 The corresponding code is available in model2.ipynb
 <br/>
 <p>The below table summariezes the accuracy of the above three model.</p>
-
+<p align='center'>
 <img src="https://user-images.githubusercontent.com/31769827/48947929-de44a000-ef58-11e8-8ef7-bf8311db5585.PNG" width="500" height="220">
+ </p>
 <br/>
 The above three models were tested on the Bakery Dataset only, as due to the lack of hardware resources the model could not be applied to the instacart dataset which required enormous amount of memory and time to process the transaction and train the model. The neural network performed better as it is capable of learning complex patterns among the data-points compare to the other methods, but its accuracy can further be improved with further preprocessing of the data-set as mention in the above mentioned Data processing section and proper hardware resources.
 
@@ -66,6 +67,11 @@ by more users more often. Thus the ﬁnal products that are obtained are the hig
 <ul><li>Model:</li></ul> Once the information about the products being re-ordered in high demands was obtained now the information of every user was extracted by merging the orders data-set to get the user-id information. Once the dataset was merged the number of times each product was ordered by each customer was extracted by grouping on user-id and product-id and converted to a single row which also gives us a vector for each user indicating the products that they had bought. A user-user similarity matrix was generated using cosine similarity as it gives us how overlapping the two vectors are. A product user matrix was also generated using to get a vector for each product which indicates which customers ordered that speciﬁc product. Thus the product user matrix and user-user similarity matrix is used to recommend products to a speciﬁc user by performing a dot product between the item-user similarity and a vector that is the list of users similar to that user. Performing a dot product between the user-user similarity vector and product-user matirx will generate a score.The userusere similarity matrix consist of a score of how similar a user is to other user the score ranges between 0-1, and the item-user matrix contains information about the users that bought that product thus when a dot product is done between the user-user vector and the item-user matrix, this generates a score which indicates how likely the products bought by the list of users are similar to that of the users that are similar to the user for which the recommendation is being done for each product, thus the product with max score will be the one which will be recommended to the user.
 <br/>Thus the same procedure is implemented as a code which is present in RECOMMENDATION_MODEL.ipynb.
 <p align="center">
-<img src="https://user-images.githubusercontent.com/31769827/48950295-ae00ff80-ef60-11e8-8cea-19fcb9a72363.png" width="450" height="300">
+<img src="https://user-images.githubusercontent.com/31769827/48950295-ae00ff80-ef60-11e8-8cea-19fcb9a72363.png" width="550" height="400">
 </p>
 </ul>
+
+<br/>
+<br/>
+ The supervised learning algorithm performed well especially the MLP model but with further improvement with the hardware resources the models accuracy could be increased and training the model on a distributed system would in-turn help to reduce the amount of time taken to train the model. But the major problem that was faced when working on the project was to validate the model that uses collaborative ﬁltering and the lack of proper hardware resources. Even though that the model could not validated inferences could be made from the models prediction that it worked pretty well, as it recommended the products that the other users bought who were similar to the current users for which recommendation is being made. Thus working on the project not only helped to widen our skill and domain knowledge but also gave us a hands on experience on how recommendation systems works and implemented to cater the needs of the consumer and also how it improves the business.
+
