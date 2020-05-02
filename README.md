@@ -1,3 +1,4 @@
+
 # DataTriumph.<br/>Market Basket Analysis Using Machine Learning.
 
 <b>Team Members:</b> 
@@ -84,3 +85,4 @@ by more users more often. Thus the ﬁnal products that are obtained are the hig
 <br/>
 <br/>
  The supervised learning algorithm performed well especially the MLP model but with further improvement with the hardware resources the models accuracy could be increased and training the model on a distributed system would in-turn help to reduce the amount of time taken to train the model. But the major problem that was faced when working on the project was to validate the model that uses collaborative ﬁltering and the lack of proper hardware resources. Even though that the model could not validated inferences could be made from the models prediction that it worked pretty well, as it recommended the products that the other users bought who were similar to the current users for which recommendation is being made.
+
